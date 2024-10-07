@@ -1,0 +1,53 @@
+.navbar-light .navbar-brand {
+    color: white;
+    margin-left:5px;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+   color: rgb(255 255 255);
+}
+
+.navbar-light .navbar-nav .nav-link {
+   color: rgb(255 255 255 / 76%);
+}
+.navbar-light .navbar-nav .nav-link.disabled {
+   color: rgb(255 255 255 / 46%);
+}
+
+
+.navbar {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    background-color: firebrick;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;}
+
+.logo{
+   
+   border-radius: 67px;
+   width: 40px;
+   height: 40px;
+   filter: drop-shadow(2px 1px 1px firebrick);
+
+}
+    .btn-outline-success {
+        color: #f0fbf3;
+        background-color: transparent;
+        background-image: none;
+        border-color: #dee4df;
+        
+    }
+
+    .py-1 {
+      padding-bottom: .25rem !important;
+    
+      box-shadow: 0.5px 0.5px #cdc7c717;
+}
